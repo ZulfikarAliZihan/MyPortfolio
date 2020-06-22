@@ -1,0 +1,346 @@
+body{
+    margin: 0px;
+    background-color: #e76868;
+}
+
+#header{
+    padding: 0px 20px 5px 20px;
+    height: auto;
+    border-top: 5px solid #78d696;
+    background-color: #b93939;
+    box-shadow: 0px 10px 10px #ddd ;
+}
+#header img{
+    padding-top: 4px;
+    max-width: 50%;
+    height: auto;
+}
+#header .row .col-md-7{
+    padding-top: 25px;
+    text-align: right;
+}
+#header .row .col-md-7 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#header .row .col-md-7 ul li{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+#header .row .col-md-7 ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    color:#fff;
+    border-radius: 6px;;
+}
+#header .row .col-md-7 ul li .active {
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    background: #76c38f;
+    color:#fff;
+    border-radius: 6px;;
+}
+#header .row .col-md-7 ul li a:hover{
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    background: #76c38f;
+    color:#fff;
+    border-radius: 6px;;
+}
+
+
+
+#slider .slider-item .row{
+    margin: 20px 150px;
+}
+#slider .slider-item .row .col-md-5 img{
+    border-radius: 50%;
+    border:12px solid #ddd;
+    max-width: 100%;
+    height: auto;
+}
+#slider .slider-item .row .col-md-7{
+    color: #fff;
+    margin: auto;
+    padding: 0px 150px;
+}
+.bx-wrapper{
+    border:0px;
+    background: #b93939;
+}
+
+.conta{
+    margin: 0px 170px;
+}
+
+#service{
+    position: relative;
+    
+}
+#service .row{
+    padding: 80px 0px;
+    
+}
+.social-area{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+    border-radius: 10px 0px 0px 10px;
+}
+.social-area ul{
+    list-style: none;
+    padding: 10px;
+}
+.social-area ul li{
+    margin: 0px;
+    display: block;
+    }
+    .social-area ul li a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: block;
+    color: #fff;
+    background: #1f1f1f;
+    margin-top: 5px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 50%;
+    }
+    .social-area ul li a:hover{
+    background: #78d696;
+    transition: .3s;
+    }
+
+#service .container .row .col-md-3{
+    overflow: hidden;
+    margin-top: 10px;
+}
+#service .container .row .col-md-3 .service-item{
+    height: 400px;
+    padding: 30px 10px;
+    text-align: center;
+    background: #fff;
+}
+#service .container .row .col-md-3 .service-item h1{
+    font-size: 2em;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+#service .container .row .col-md-3 .service-item:hover{
+    background: #76c38f;
+    color: #fff;
+    cursor: pointer;
+    transition: color .3s ease-in;
+}
+.bgg{
+    width: 120px;
+    height: 120px;
+    background-color: #999999;
+    padding-top: 15px;
+    margin: auto;
+}
+
+/*
+#works{
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    grid-gap: 15px;
+}
+#works .works-item img{
+    max-width: 100%;
+    height: auto;
+}
+#works .works-item{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+#works .work-title{
+    width: 270px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    background: #000;
+}
+*/
+
+
+#work-poster .row{
+    width: 100%;
+    margin-left: 0px;
+}
+hr{
+    height: 1px;
+    border: 5px solid #76c38f;
+}
+#work-poster .row .col-md-5 {
+    padding:0px;
+}
+#work-poster .row .col-md-2 {
+    text-align: center;
+    padding-top: 2px;
+    background: #76c38f;
+    color: #e65454;
+    border-radius: 5px;
+    font-size: 1.4em;
+    font-family: fantasy;
+}
+
+#works{
+    margin: 50px 10px;
+}
+#works .container .row .col-md-3{
+    padding: 0px;
+    margin-top: 10px;
+}
+#works .container .row .col-md-3 .items img{
+    max-width: 100%;
+    height: auto;
+}
+#works .container .row .col-md-3 .items{
+    position: relative;
+    margin: auto;
+    width: 260px;
+    height: auto;   
+     border: 2px solid #fff;
+}
+#works .container .row .col-md-3 .items .work-title{
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    width:  100%;
+    text-align: center;
+    margin: auto;
+    background: #2c2c2c;
+}
+
+/*=============================================================================================
+                                   Footer Style Area                       
+===============================================================================================*/
+#footer{
+    clear: both;
+    background: #252525;
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+#footer .row{
+    margin-right: 0px;
+}
+#footer .row .col-md-3 h4{
+color:#fff;
+padding-bottom: 10px;
+}
+#footer .row .col-md-3 p,h6{
+color:#999999;
+}
+#footer .row .col-md-3 ul{
+    list-style-type: symbols(">");
+padding: 0px;
+margin: 0px;
+}
+
+#footer .row .col-md-3 ul li a{
+    border: 1px dotted #fff;
+    margin: 15px 150px 5px 2px;
+    display: block;
+    color: #3bafbe;
+    text-decoration: none;
+}
+#footer .row .col-md-3 input[type="text"],[type="email"],textarea{
+    display: block;
+    background: #2c2c2c;
+    border: 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 70%;
+}
+/*=============================================================================================
+                                   copyright Style Area                       
+===============================================================================================*/
+#copyright{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    color: #999999;
+    padding: 20px;
+    
+}
+#copyright .col-md-6:nth-child(2){
+    text-align: right;
+}
+
+/*=============================================================================================
+                                   Responsive Style Area                       
+===============================================================================================*/
+.slicknav_menu{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .slicknav_menu{
+        display: block;
+    }
+    #header .row .col-md-7{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        width: 200px;
+    }
+    #slider .slider-item .row .col-md-7{
+       overflow: hidden;
+       width: 480px;
+       padding:5px;
+       order: 2;
+       text-align: center;
+   }
+   #slider .row .col-md-7 h1{
+       font-size: 1.2em;
+   }
+   #slider .slider-item .row .col-md-7 p{
+       font-size: .6em;
+   }
+   #slider .slider-item .row .col-md-7 button{
+       font-size: .5em;
+       padding: 4px;
+   }
+   #slider .slider-item .row .col-md-5{
+       order: 1;
+   }
+  
+   #service .service-item{
+       margin: auto;
+       width: 250px;
+       padding: 15px 5px;
+
+   }
+  
+   #footer .row .col-md-3{
+       margin-top: 20px;
+   }
+   #copyright .row .col-md-6:last-child{
+       text-align: left;
+   }
+
+}
